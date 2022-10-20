@@ -14,8 +14,16 @@ function palindrome(){
     let end =  input.substring(length - Math.floor(length / 2)).
     toLowerCase();
 
-    let flip = 
-    // alert(end)
+    // let flip = end.split("").reverse().join();
+    let flip = [...end].reverse().join("");
 
+    // alert(flip)
+  if (start == end) {
+    ``
+  } else {
+    
+  }
+    
     
 }
+
