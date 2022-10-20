@@ -29,7 +29,9 @@ body{
 .box-model{
  width: 25rem;
  height:15rem;
- padding: 6.7rem 15px;
+ flex-direction: column;
+ padding-left: 4.6rem;
+ padding-top: 6.4rem;
  position: absolute;
  top: 50%;
  left: 50%;
@@ -37,4 +39,29 @@ body{
  border: 3px solid #e45fe8;
  background-color: azure;
 
+}
+input{
+    outline: none;
+    border: none;
+    width: 12rem;
+    border-bottom: 2px solid #e45fe8;
+    color: #e45fe8;
+    font-weight: 400;
+    font-family: cursive;
+}
+
+button{
+    outline: none;
+    border: none;
+    color:#fff;
+    background-color: #e45fe8;
+    font-family: cursive;
+    padding: 2px;
+}
+
+.outcome{
+    padding-top: 2rem;
+    font-family: cursuve;
+    font-weight: 400;
+    color:#e45fe8;
 }
