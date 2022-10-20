@@ -38,6 +38,7 @@ body{
  transform: translate(-50%, -50%);
  border: 3px solid #e45fe8;
  background-color: azure;
+ overflow-x: auto;
 
 }
 input{
@@ -62,10 +63,10 @@ button{
 
 .outcome{
     padding-top: 2rem;
-    font-family: cursuve;
+    font-family: cursive;
     font-weight: 400;
     color:#e45fe8;
     position: absolute;
-    left: 10rem;
+    /* left: 10rem; */
 
 }
