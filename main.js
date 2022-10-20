@@ -10,7 +10,12 @@ function palindrome(){
 
     let start = input.substring(0, Math.floor(length / 2)).
     toLowerCase();
-    alert(start);
+    
+    let end =  input.substring(length - Math.floor(length / 2)).
+    toLowerCase();
+
+    let flip = 
+    // alert(end)
 
     
 }
