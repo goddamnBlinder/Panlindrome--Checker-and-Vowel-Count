@@ -65,5 +65,7 @@ button{
     font-family: cursuve;
     font-weight: 400;
     color:#e45fe8;
+    position: absolute;
+    left: 10rem;
 
 }

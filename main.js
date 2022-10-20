@@ -1,5 +1,13 @@
+alert(`PANLINDROME
+/ˈpalɪndrəʊm/
+
+noun
+a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam `);
+
+
 var btn = document.querySelector('.btn');
 var view = document.querySelector('.outcome');
+
 
 
 btn.addEventListener('click', palindrome);
@@ -18,12 +26,12 @@ function palindrome(){
     let flip = [...end].reverse().join("");
 
     // alert(flip)
-  if (start == end) {
-    ``
+  if (start == flip) {
+    view.innerHTML = `${input.toUpperCase()} ✔`
   } else {
+     view.innerHTML = `${input.toUpperCase()} ❌`
     
   }
-    
     
 }
 
