@@ -57,6 +57,7 @@ button{
     background-color: #e45fe8;
     font-family: cursive;
     padding: 2px;
+    aspect-ratio: 4/2;
 }
 
 .outcome{
@@ -64,4 +65,5 @@ button{
     font-family: cursuve;
     font-weight: 400;
     color:#e45fe8;
+
 }
