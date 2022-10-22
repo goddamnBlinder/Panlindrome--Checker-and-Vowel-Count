@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(from right, #);
+    background-image: linear-gradient( to right, #20002c, #cbb4d4);
     
 }
 .container{
@@ -31,16 +31,31 @@ body{
 }
 
 ::placeholder{
-    font-weight: 200;
+    font-weight: 100;
     font-family: cursive;
     color: #20002c;
 }
+
+
+input , button{
+    font-variant: small-caps;
+    font-family: cursive;
+
+}
+
 
 input{
    border: none;
    outline: none;
    border-bottom: 2px solid #20002c;
-   padding: 2px;
+   width: 15rem;
 
+}
 
+button{
+    outline: none;
+    border: none;
+    color: aliceblue;
+    background-color: #20002c;
+    padding: 2px;
 }
