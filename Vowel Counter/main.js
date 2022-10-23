@@ -8,10 +8,10 @@ let takeOff = word.value.toLowerCase();
 // alert(takeOff);
 for (let i = 0; i < takeOff.length; i++) {
     const element = takeOff[i];
-    if(element.match(([a,e,i,o,u]))){
-      Number = element;
-      
+    if(element.match(/([a,e,i,o,u])/)){
+      count++;
     }
 }
-
+view.innerHTML = `${word.value.toUpperCase()} has ${count} vowels`
+ 
 });
