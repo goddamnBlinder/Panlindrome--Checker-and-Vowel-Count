@@ -47,7 +47,9 @@ input{
    border: none;
    outline: none;
    border-bottom: 2px solid #20002c;
-   width: 15rem;
+   width: 15rem;    
+   background-color: #cbb4d4;
+
 
 }
 
