@@ -1,17 +1,17 @@
 const word = document.querySelector('#text');
 const btn = document.querySelector('#btn');
 const view = document.querySelector('.outcome');
+const submit = document.querySelector('.box-model');
 
 btn.addEventListener('click', () => {
- let count = 0;
-let takeOff = word.value.toLowerCase();
-// alert(takeOff);
-for (let i = 0; i < takeOff.length; i++) {
-    const element = takeOff[i];
+let count = 0;
+let vowel = word.value.toLowerCase();
+
+for (let i = 0; i < vowel.length; i++) {
+    const element = vowel[i];
     if(element.match(/([a,e,i,o,u])/)){
-      count++;
+        count++;
     }
 }
 view.innerHTML = `${word.value.toUpperCase()} has ${count} vowels`
- 
 });
