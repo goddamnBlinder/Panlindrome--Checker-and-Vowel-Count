@@ -36,7 +36,7 @@ body{
     color: #20002c;
 }
 
-input , button{
+input , button, .outcome{
     font-variant: small-caps;
     font-family: cursive;
 
@@ -57,4 +57,9 @@ button{
     color: aliceblue;
     background-color: #20002c;
     padding: 2px;
+}
+
+.outcome{
+    margin-top: 2rem;
+    text-align: center;
 }
